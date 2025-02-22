@@ -1,0 +1,77 @@
+name: Test Modpack
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup X Virtual Frame Buffer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends xvfb
+          export DISPLAY=:1# For this step
+          echo "DISPLAY=:1" >> "$GITHUB_ENV"# For future steps
+          sudo Xvfb -ac :1 -screen 0 854x480x24 > /dev/null2>&1 &
+
+      - name: Start Minecraft server
+        working-directory: server
+        timeout-minutes: 6
+        run: |
+          cat <<EOF > server.properties
+          online-mode=false
+          level-seed=1
+          gamemode=creative
+          EOF
+          echo "eula=true" > eula.txt
+          nohup java -jar $MINECRAFT nogui&> server.log &
+          sleep 1
+          timeout 5m grep -q 'Done ([.[:digit:]]*s)! For help, type "help"' <(tail -f server.log) || exit 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3"
+
+      - name: Install portablemc
+        working-directory: client
+        timeout-minutes: 5
+        run: |
+          pip install --user --progress-bar off portablemc
+          export PATH="$PATH:$HOME/.local/bin"
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          # Install without starting the game.# This means the timeout for the actual run won't be waiting on installation
+          portablemc --main-dir .minecraft --work-dir profile start fabric:${{ steps.get-minecraft-version.outputs.minecraft-version }} --jvm "${{ steps.java.outputs.path }}/bin/java" -u Dinnerbone --dry
+
+      - name: Run Minecraft client
+        id: minecraft-client
+        working-directory: client
+        continue-on-error: true
+        timeout-minutes: 6
+        run: |
+          # Turn off first time onboarding
+          cat << EOF > profile/options.txt
+          skipMultiplayerWarning:true
+          onboardAccessibility:false
+          joinedFirstServer:true
+          tutorialStep:none
+          EOF
+          echo Starting Minecraft client. This will take some time.
+          portablemc --main-dir .minecraft --work-dir profile start fabric:${{ steps.get-minecraft-version.outputs.minecraft-version }} --jvm "${{ steps.java.outputs.path }}/bin/java" -u Dinnerbone -s localhost -p 25565&> client.log &
+          sleep 1
+          timeout 5m grep -q 'Dinnerbone joined the game' <(tail -f ../server/server.log) || exit 1
+          # Grace period for player to properly load into game
+          echo Player joined server. Waiting for some time for eveything to load
+          sleep 20
+
+      - name: Take Screenshot
+        run: |
+          xwd -display $DISPLAY -root -silent | convert xwd:- png:./screenshot.png
