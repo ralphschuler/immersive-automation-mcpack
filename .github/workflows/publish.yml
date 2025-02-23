@@ -28,40 +28,46 @@ jobs:
       - name: Build and Export
         run: pakku export
 
-      - name: Get Tag or Commit
+      - name: Tag oder Commit SHA abrufen
         id: tag_or_commit
-        run: echo ::set-output name=tag_or_branch::$(echo ${{ github.event.release.tag_name }} || echo ${{ github.sha }})
+        run: |
+          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$TAG" ]; then
+            TAG=$(git rev-parse --short HEAD)
+          fi
+          echo "TAG_OR_COMMIT=$TAG" >> $GITHUB_ENV
+          echo "::set-output name=tag_or_commit::$TAG"
 
       - name: Move Exported Files
         run: |
           mkdir -p build/output
 
-          mv build/curseforge/*.zip build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
-          mv build/modrinth/*.mrpack build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.mrpack
-          mv build/serverpack/*.zip build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
+          mv build/curseforge/*.zip build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
+          mv build/modrinth/*.mrpack build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.mrpack
+          mv build/serverpack/*.zip build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
 
       - name: Publish
         uses: Kira-NT/mc-publish@v3.3
         with:
-          name: Immersive Automation ${{ steps.tag_or_commit.outputs.tag_or_branch }} for Minecraft ${{ env.MINECRAFT_VERSION }}
-          version: mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}
+          name: Immersive Automation ${{ steps.tag_or_commit.outputs.tag_or_commit }} for Minecraft ${{ env.MINECRAFT_VERSION }}
+          version: mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}
           loaders: forge
           game-versions: ${{ env.MINECRAFT_VERSION }}
 
           modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-files: |
-            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.mrpack
-            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
+            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.mrpack
+            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
 
           curseforge-id: ${{ env.CURSEFORGE_ID }}
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           curseforge-files: |
-            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
-            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
+            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
+            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
           github-files: |
-            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
-            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.zip
-            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_branch }}.mrpack
+            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
+            build/output/immersive-automation-serverpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.zip
+            build/output/immersive-automation-modpack-mc${{ env.MINECRAFT_VERSION }}-${{ steps.tag_or_commit.outputs.tag_or_commit }}.mrpack
