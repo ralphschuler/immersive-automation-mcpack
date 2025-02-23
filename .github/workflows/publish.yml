@@ -28,12 +28,18 @@ jobs:
       - name: Build and Export
         run: pakku export
 
+      - name: Get Tag or Branch
+        id: get_tag_or_branch
+        run: echo ::set-output name=tag_or_branch::$(echo ${GITHUB_REF#refs/*/})
+
       - name: Publish
         uses: Kira-NT/mc-publish@v3.3
         with:
-          loaders: |
-            forge
-          version: ${{ env.MINECRAFT_VERSION }}-${{ github.ref }}
+          name: Immersive Automation ${{ steps.get_tag_or_branch.outputs.tag_or_branch }} for Minecraft ${{ env.MINECRAFT_VERSION }}
+          version: mc${{ env.MINECRAFT_VERSION }}-${{ steps.get_tag_or_branch.outputs.tag_or_branch }}
+          loaders: forge
+          game-versions: ${{ env.MINECRAFT_VERSION }}
+
           modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-files: |
