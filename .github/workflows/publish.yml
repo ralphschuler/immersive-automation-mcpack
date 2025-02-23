@@ -11,6 +11,9 @@ env:
   MODRINTH_ID: RTIfQdFP
   CURSEFORGE_ID: 1206555
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
