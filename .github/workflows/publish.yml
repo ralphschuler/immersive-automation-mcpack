@@ -41,7 +41,7 @@ jobs:
           pakku export
 
       - name: Publish Curseforge, Modrinth, Github
-        uses: Kira-NT/mc-publish
+        uses: Kira-NT/mc-publish@v3.3
         with:
           modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
