@@ -31,6 +31,9 @@ jobs:
       - name: Publish
         uses: Kira-NT/mc-publish@v3.3
         with:
+          loaders: |
+            forge
+
           modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-files: |
