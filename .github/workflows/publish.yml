@@ -1,4 +1,4 @@
-name: Publish on Github, Curseforge, Modrinth
+name: Build and Publish
 
 on:
   release:
@@ -18,29 +18,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Homebrew
+      - name: Setup Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
-      - name: Cache Homebrew Bundler RubyGems
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: ${{ steps.set-up-homebrew.outputs.gems-path }}
-          key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
-          restore-keys: ${{ runner.os }}-rubygems-
+      - name: Setup pakku
+        run: brew install juraj-hrivnak/pakku/pakku
 
-      - name: Install Homebrew Bundler RubyGems
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          brew install-bundler-gems
-          brew install juraj-hrivnak/pakku/pakku
+      - name: Build and Export
+        run: pakku export
 
-      - name: Build Curseforge, Modrinth, Serverpack
-        run: |
-          pakku export
-
-      - name: Publish Curseforge, Modrinth, Github
+      - name: Publish
         uses: Kira-NT/mc-publish@v3.3
         with:
           modrinth-id: ${{ env.MODRINTH_ID }}
