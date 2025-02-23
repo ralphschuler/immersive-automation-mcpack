@@ -1,14 +1,15 @@
-name: Build Modpack
+name: Publish on Github, Curseforge, Modrinth
 
 on:
-  push:
-    branches:
-      - master
-      - main
-  pull_request:
-    branches:
-      - master
-      - main
+  release:
+    types: [published]
+  workflow_dispatch:
+
+env:
+  MINECRAFT_VERSION: 1.20.1
+
+  MODRINTH_ID: RTIfQdFP
+  CURSEFORGE_ID: 1206555
 
 jobs:
   build:
@@ -35,13 +36,27 @@ jobs:
           brew install-bundler-gems
           brew install juraj-hrivnak/pakku/pakku
 
-      - name: Build
+      - name: Build Curseforge, Modrinth, Serverpack
         run: |
           pakku export
 
-      - uses: actions/upload-artifact@v4
+      - name: Publish Curseforge, Modrinth, Github
+        uses: Kira-NT/mc-publish
         with:
-          path: |
+          modrinth-id: ${{ env.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-files: |
+            build/modrinth/*.mrpack
+            build/serverpack/*.zip
+
+          curseforge-id: ${{ env.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          curseforge-files: |
+            build/curseforge/*.zip
+            build/serverpack/*.zip
+
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-files: |
             build/curseforge/*.zip
             build/modrinth/*.mrpack
             build/serverpack/*.zip
