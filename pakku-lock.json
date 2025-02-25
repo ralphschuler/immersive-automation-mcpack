@@ -1021,6 +1021,70 @@
             ]
         },
         {
+            "pakku_id": "EsYx3T0nhAMxdnSi",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "autopack-director",
+                "curseforge": "autopack-director"
+            },
+            "name": {
+                "modrinth": "AutoPack-Director",
+                "curseforge": "AutoPack-Director"
+            },
+            "id": {
+                "modrinth": "Fqqapnbs",
+                "curseforge": "1182657"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Modpack-Director-1.0.1.jar",
+                    "mc_versions": [
+                        "1.12.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/Fqqapnbs/versions/47y19tCP/Modpack-Director-1.0.1.jar",
+                    "id": "47y19tCP",
+                    "parent_id": "Fqqapnbs",
+                    "hashes": {
+                        "sha512": "2a58aff6a3bbcc4e44f6b81f7fb8477fd87f55112ff53c3704ae25a136d2ffd5146043983cf653444e823a4c9a247866028a452ff482d9cdc6cb81af4a1ffca3",
+                        "sha1": "973a115aeee0cd6d40ad0a0e1e255d5aa0419bb2"
+                    },
+                    "required_dependencies": [],
+                    "size": 3031600,
+                    "date_published": "2025-01-19T06:45:11.832901Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "AutoPack-Director-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6102/172/AutoPack-Director-1.0.1.jar",
+                    "id": "6102172",
+                    "parent_id": "1182657",
+                    "hashes": {
+                        "sha1": "973a115aeee0cd6d40ad0a0e1e255d5aa0419bb2",
+                        "md5": "5b6d859ea086f988ed041045d0b58896"
+                    },
+                    "required_dependencies": [],
+                    "size": 3031600,
+                    "date_published": "2025-01-19T07:37:46.543Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xIN7QPCRMSDvXID0",
             "type": "MOD",
             "side": "BOTH",
