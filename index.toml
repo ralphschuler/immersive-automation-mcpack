@@ -71,11 +71,6 @@ hash = "1ef6a334d659a6c52db931faa93f9519aadd7b41d6277eff9a367e1846ec0099"
 metafile = true
 
 [[files]]
-file = "mods/antique-atlas-4.pw.toml"
-hash = "6486abd02846d51e2da7c93ddc1bb66ea57d5917bd20e9df33d6063ab74097aa"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
 metafile = true
@@ -331,16 +326,6 @@ hash = "f4406fece3f81c30faabfe3faffa872655c5eff78c1cb467e32853be805d3570"
 metafile = true
 
 [[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "d8480ee1f6ae58fa389e502108bcde4936ca326d6dc2f1608b9af9ac141cb35a"
-metafile = true
-
-[[files]]
-file = "mods/connector.pw.toml"
-hash = "852ee3d5dea735c0c8f4c030edb06164863e7d27eef535c697f86a8b20a1cff0"
-metafile = true
-
-[[files]]
 file = "mods/consistencyplus.pw.toml"
 hash = "69a06c340134dc6bd0bd34e5d9d24c8cd4bba64eebf356ea277eeb686ef36167"
 metafile = true
@@ -348,11 +333,6 @@ metafile = true
 [[files]]
 file = "mods/continents.pw.toml"
 hash = "2278b701d34c6ce904d52975244f04ce584ae7d5920ca3f9ff0202eccdc6185f"
-metafile = true
-
-[[files]]
-file = "mods/continuity.pw.toml"
-hash = "8cea6a7ec6b151f92a3a62261530bb1aefe173ad19840c0319aa10e0d8ab2386"
 metafile = true
 
 [[files]]
@@ -368,11 +348,6 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "41fc2f21422cff66da8163bfc3410242b3a68ced49597b2a37f5f7d937ecb636"
-metafile = true
-
-[[files]]
-file = "mods/countereds-terrain-slabs.pw.toml"
-hash = "c9f1604a7a7048b800fc0fad7ebf847b36ec7d3c105f69631b21d53768b66cbc"
 metafile = true
 
 [[files]]
@@ -783,11 +758,6 @@ metafile = true
 [[files]]
 file = "mods/flowing-fluids.pw.toml"
 hash = "b0e4bf14073f26b70c36f3bfbb89d3702a02476ce28387a3a281ef2ff2c20346"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "c02d5558f7c034fbb180e794403ed738b57ee89b2894cd650ae6b16b661ac074"
 metafile = true
 
 [[files]]
@@ -1348,16 +1318,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "1a7d83ff96739b35bfb9035ff23db0a95d30bceb1a018b078a2df96fcf09ab59"
-metafile = true
-
-[[files]]
-file = "mods/surveyor.pw.toml"
-hash = "f05a1d7a46d6844e139a23b46be8fa214f0029a1a9c202689e98e9f7fb67ac05"
-metafile = true
-
-[[files]]
-file = "mods/surveystones.pw.toml"
-hash = "5dfce959e00b2a6dae0ee075875f64821b9f76b174b951565fa55f28d6344dfc"
 metafile = true
 
 [[files]]
