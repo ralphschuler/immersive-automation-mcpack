@@ -1,0 +1,13 @@
+name = "Create: Better Villagers"
+filename = "create_better_villagers-1.2.4.j.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kS90mr4y/versions/HaPaK1Yo/create_better_villagers-1.2.4.j.jar"
+hash-format = "sha512"
+hash = "d1b35dc7cdf54843ed4abe002584325c4af39532b7cd3bf9da7dcb6bb512cf3d1b744f218ec34a2de9052fc26088a68598d1b31cd24a1995dc7b13b441366ca0"
+
+[update]
+[update.modrinth]
+mod-id = "kS90mr4y"
+version = "HaPaK1Yo"

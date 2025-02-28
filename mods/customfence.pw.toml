@@ -1,0 +1,13 @@
+name = "customfence"
+filename = "customfence-1-20-x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ryno3yLL/versions/VGrFR8y8/customfence-1-20-x.jar"
+hash-format = "sha512"
+hash = "2577950a788bdc522ce448b38231fdf21020b03a3abadc4703032851ca3387e06930daa115d63885f9d51baeba21c4e4e610939e8fe04273ad7408f79c070c5d"
+
+[update]
+[update.modrinth]
+mod-id = "Ryno3yLL"
+version = "VGrFR8y8"

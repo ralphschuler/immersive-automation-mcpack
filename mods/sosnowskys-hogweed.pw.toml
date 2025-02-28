@@ -1,0 +1,13 @@
+name = "More Plants"
+filename = "more-plants-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cNt4Oeae/versions/tBdDJv96/more-plants-1.0.1.jar"
+hash-format = "sha512"
+hash = "8fe0d76aca582fccf127f212f2545f1c5e450aad92d3c034bc13718e7af700ff8d98d2a185c4582ecd46aa5e0211a7eb24c906ed96657aa18c1011be25df336e"
+
+[update]
+[update.modrinth]
+mod-id = "cNt4Oeae"
+version = "tBdDJv96"

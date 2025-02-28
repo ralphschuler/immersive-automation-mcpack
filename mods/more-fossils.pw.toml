@@ -1,0 +1,13 @@
+name = "More Fossils"
+filename = "more_fossils-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6wSvZKQk/versions/R7X2UrMs/more_fossils-2.0.1.jar"
+hash-format = "sha512"
+hash = "38db550708a3610e3e56e46a0e6593637b544dc91b85bc7ad62958d651d1ae6d350ee496130b5f592c5048192eb39f2f826abcaa14d6f092cc420fcdd432e4b5"
+
+[update]
+[update.modrinth]
+mod-id = "6wSvZKQk"
+version = "R7X2UrMs"

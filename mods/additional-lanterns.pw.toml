@@ -1,0 +1,13 @@
+name = "Additional Lanterns"
+filename = "additionallanterns-1.1.1a-forge-mc1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jXNvTKds/versions/zOkqTNIu/additionallanterns-1.1.1a-forge-mc1.20.jar"
+hash-format = "sha512"
+hash = "9f1f7fd2d294c270b760c467e58d094b6165e65e1550868f2353efcb0bb047beab81bf677a2981902277368e481d95a79ce059403d0bd3921bf52ee684e8be7f"
+
+[update]
+[update.modrinth]
+mod-id = "jXNvTKds"
+version = "zOkqTNIu"

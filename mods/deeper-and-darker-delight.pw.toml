@@ -1,0 +1,13 @@
+name = "Deeper and Darker Delight"
+filename = "deeperdarkerdelight-1.1.2.3-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8HUMWj1a/versions/eG4NkKFP/deeperdarkerdelight-1.1.2.3-1.20.1.jar"
+hash-format = "sha512"
+hash = "1bb8288b5d08c173de0729e6f6efcf3986e767771d47c8fc5e63e716747046d13c2cd86dc5a92576d09814018c15f13fba9105eeea5f3eded8bcb7ade24383ef"
+
+[update]
+[update.modrinth]
+mod-id = "8HUMWj1a"
+version = "eG4NkKFP"

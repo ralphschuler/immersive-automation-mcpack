@@ -1,0 +1,13 @@
+name = "Create: Spill-Induced"
+filename = "create-spill-induced-1.20.1-1.2b.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/MBO5HUGI/versions/gaWCG0Ie/create-spill-induced-1.20.1-1.2b.jar"
+hash-format = "sha512"
+hash = "6e777aba0ae68ac5d0845102b47253214f42cf560559191852fdd6083e993fde967755caada5dd70e163b2892a28327fbf09ca6e666b68efc24d2ccffdc47698"
+
+[update]
+[update.modrinth]
+mod-id = "MBO5HUGI"
+version = "gaWCG0Ie"

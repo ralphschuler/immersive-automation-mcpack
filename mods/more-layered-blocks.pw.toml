@@ -1,0 +1,13 @@
+name = "More Layered Blocks"
+filename = "more_layered_blocks-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F87c2iPV/versions/KsPLrW1E/more_layered_blocks-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "63b80222cd1a79b806b5369e2071ab105df632cc9bcf6f15a51f77a3f4ebb56481a79a7d9a82fa3590a8e6e6d3913abd79b2be6988c332c4996fecc98b4fe59a"
+
+[update]
+[update.modrinth]
+mod-id = "F87c2iPV"
+version = "KsPLrW1E"

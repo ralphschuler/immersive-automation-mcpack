@@ -1,0 +1,13 @@
+name = "YUNG's Cave Biomes Delight"
+filename = "cavebiomesdelight-1.0.4.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7eP4CBY2/versions/xwPOOZwe/cavebiomesdelight-1.0.4.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "9b31c9ff8bd57ae076b2a9e61822fe35e1a4f9314cd9c5d08211a90ce02b1b6045016f44cc8dd84de7c9770c279a0fa818f142fe2eb6b7256874b8dfc3a0edea"
+
+[update]
+[update.modrinth]
+mod-id = "7eP4CBY2"
+version = "xwPOOZwe"
