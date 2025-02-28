@@ -1216,11 +1216,6 @@ hash = "ce0fde07ed8f70f9eb4f17e0fbc6002c47e2b11be54e3633d0a5c82ce043e9de"
 metafile = true
 
 [[files]]
-file = "mods/remote-player-waypoints-for-xaeros-map.pw.toml"
-hash = "6f99e78efb1b7abb88cff9b74ea300b952430b87ce0285e49a2f2fa3e500139a"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "b85e8417e797be3fdae046c487eeda8f54cdc88f3f20e462e0e229f8dd734214"
 metafile = true
@@ -1521,13 +1516,8 @@ hash = "b14eb0d5cbc38e09ee5f32e8259f35330893236cae45a80d8b6a91ffafc053d6"
 metafile = true
 
 [[files]]
-file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
-hash = "e288e8e67a836314a8661d6c9f7320a686d97b8c92aab4f88352cc2cbcde1687"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "5f36851741efac984e0b48e0257bee623732c63211e7168c909dffcb7693b686"
+hash = "8a610e06ddb20cbdd1fb1227d01069b172159708bffc008b067d75e18cb5b91a"
 metafile = true
 
 [[files]]
