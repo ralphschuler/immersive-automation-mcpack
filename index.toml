@@ -1,2 +1,66 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "457f82eb5d7b278e706d1c544ffb4186b6e8d45ff69f6af03d92e9c2758b8a94"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "6e680be3cca5047fa566588220045ba76faf90889319c7aff3c03dd450065d20"
+metafile = true
+
+[[files]]
+file = "mods/continents.pw.toml"
+hash = "2278b701d34c6ce904d52975244f04ce584ae7d5920ca3f9ff0202eccdc6185f"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "f87f921963470a9a2297bf391a408cdabcaaeabed7333e11d7847ea99cd66725"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "ba16d5e568349bc79bb6a648090047fee23db3931f5399f9ad09c930410c740c"
+metafile = true
+
+[[files]]
+file = "mods/create-tfmg.pw.toml"
+hash = "1ea4e0f523d42b19dc47c558c82b554d26b3d0a622eb886e0f30ca502a2a4580"
+metafile = true
+
+[[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+hash = "6bbc25d95d3815e479f63daa98b5478bd98211462501328409cbf80c0c74533d"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "20a70be7c186d574ab11c58836e98521253651bcf17755051f5cd6b30b418266"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "643b6f675134f2b2dcf7601cf895a83dbb9ad56b1433e603ba36c8c1fc6c94bf"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "dd53b366bee44660eb2523d18c3639281e56a3a756b3f4e8ec4d402f41d5b19d"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
+metafile = true
+
+[[files]]
+file = "mods/terraphilic.pw.toml"
+hash = "24ad43909595ac26f2c2c49d8528edf5c0d35655e20c24b1981221e441c0e91b"
+metafile = true
