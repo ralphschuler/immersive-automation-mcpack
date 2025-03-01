@@ -1,0 +1,13 @@
+name = "Nature's Spirit"
+filename = "naturespirit-2.2.2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/vLbQwq6H/naturespirit-2.2.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "09585e0fd4104a33e2c6e1f1122a78360d165a259599b8e07634bb1f0112ad8fe9f4c61e9232154a6fe4660984252f21b75fc31c0f5553892eb03847fa1c044f"
+
+[update]
+[update.modrinth]
+mod-id = "WBvnqHfV"
+version = "vLbQwq6H"

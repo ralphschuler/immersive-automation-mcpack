@@ -1,0 +1,13 @@
+name = "Create: Pantographs & Wires"
+filename = "pantographsandwires-fabric-1.20.1-alpha-0.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VzdCnMqW/versions/SIbbeJ41/pantographsandwires-fabric-1.20.1-alpha-0.0.3.jar"
+hash-format = "sha512"
+hash = "d36f8b3649a46e664c7221ea341246b63a25dac9855da26935ca78ae19b76f37f9f0df33a5ba61d87fdbbfccdc78914bb68ceb3dd0fc4cf439040dcd4167db98"
+
+[update]
+[update.modrinth]
+mod-id = "VzdCnMqW"
+version = "SIbbeJ41"

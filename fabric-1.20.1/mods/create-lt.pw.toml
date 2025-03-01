@@ -1,0 +1,13 @@
+name = "Create: Less Ticking"
+filename = "create_lt-1.0.1-fabric-mc1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RQANGB0o/versions/8xTILrOi/create_lt-1.0.1-fabric-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "e29cea32b6d5e3067c44c8e533c7e820907a1716517593c6f4a999bc0aba4bb44cb6ea489788771699933adea1a595401e19217b1d4855af4ebc83e63bb8eef5"
+
+[update]
+[update.modrinth]
+mod-id = "RQANGB0o"
+version = "8xTILrOi"

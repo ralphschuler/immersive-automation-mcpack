@@ -1,0 +1,13 @@
+name = "Enhanced Celestials"
+filename = "Enhanced-Celestials-Fabric-1.20.1-5.0.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2rL16t1O/versions/N84yYvmy/Enhanced-Celestials-Fabric-1.20.1-5.0.2.3.jar"
+hash-format = "sha512"
+hash = "06d750e3c1ba729430e06731e9036a09d39d37bcdba98adb5fdd495ea7b544c17c9628da16dead94b6fd851e5c270abc7bcb118e13dc625ec1b2204bb36a4401"
+
+[update]
+[update.modrinth]
+mod-id = "2rL16t1O"
+version = "N84yYvmy"

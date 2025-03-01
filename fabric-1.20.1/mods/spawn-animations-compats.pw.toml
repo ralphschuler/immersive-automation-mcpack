@@ -1,0 +1,13 @@
+name = "Spawn Animations Compats"
+filename = "spawn-animations-compats-4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ofDka6PS/versions/90pMYDyy/spawn-animations-compats-4.0.jar"
+hash-format = "sha512"
+hash = "76b403cb4f773d8f052497059ceb444414821fe2d24b2abe2d708df3003b8899fbbe0401578d68b3426cce4cf825459742c3c30cd203a177fb2935796c4b7790"
+
+[update]
+[update.modrinth]
+mod-id = "ofDka6PS"
+version = "90pMYDyy"

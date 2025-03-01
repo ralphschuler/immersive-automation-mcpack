@@ -1,0 +1,13 @@
+name = "Immersive Automation"
+author = "Ralph Schuler"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3c2a9413594aee9585dee4715ce789fc0168e632538c50f912b766d6d9e894fc"
+
+[versions]
+fabric = "0.16.10"
+minecraft = "1.20.1"

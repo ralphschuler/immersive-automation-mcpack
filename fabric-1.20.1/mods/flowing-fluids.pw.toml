@@ -1,0 +1,13 @@
+name = "Flowing Fluids"
+filename = "flowing_fluids_fabric_1.20.1-0.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/s1I3BT95/versions/SyI4IoDO/flowing_fluids_fabric_1.20.1-0.3.jar"
+hash-format = "sha512"
+hash = "c4e1e4c93b8b46b9f0e265d348db7b219cb98d3340bc6bc35f29401e16cb94cab830c9135777a6c57eb48d3e961305649883c3f4c74725bd09eb20bf710454aa"
+
+[update]
+[update.modrinth]
+mod-id = "s1I3BT95"
+version = "SyI4IoDO"

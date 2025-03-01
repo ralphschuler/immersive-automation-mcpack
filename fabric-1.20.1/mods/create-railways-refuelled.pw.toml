@@ -1,0 +1,13 @@
+name = "Create Railways Refuelled"
+filename = "create-railways-refuelled-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4JmVzRPF/versions/jiQp0ZgX/create-railways-refuelled-1.0.0.jar"
+hash-format = "sha512"
+hash = "078c2eb529f52c037d26d2ebeaaa2a8576a567fd5baad80d79b959c2be3d2058c47e8c9c92d8c7109465b15f0bffff3f485015fc72fc5ea65a88efd3cd199803"
+
+[update]
+[update.modrinth]
+mod-id = "4JmVzRPF"
+version = "jiQp0ZgX"

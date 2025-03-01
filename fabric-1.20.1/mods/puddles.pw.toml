@@ -1,0 +1,13 @@
+name = "Motschen's Puddles"
+filename = "puddles-2.0.1+1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/535D1YoA/versions/9kuPIPfR/puddles-2.0.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "fd7b60c10fa22a7bf4c80017050436131fd154d974ff0c6098a0890d89d36c878453999f93d71a8c6c565c9d3400df36ce22bd5fdb1ab45dbe0d65f4561cc1a9"
+
+[update]
+[update.modrinth]
+mod-id = "535D1YoA"
+version = "9kuPIPfR"
