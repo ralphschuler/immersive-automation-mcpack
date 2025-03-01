@@ -1,2 +1,4 @@
-/.github/
-/README.md
+/.github
+/.gitignore
+/.gitattributes
+/readme.md
