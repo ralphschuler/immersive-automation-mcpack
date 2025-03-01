@@ -25,7 +25,7 @@ jobs:
           name: "Linux 64-bit x86"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: Madis0/packwiz
-          run-id: 12104671023
+          run-id: 12858009936
       - name: Export to packwiz
         run: |
           chmod +x ./packwiz
@@ -70,7 +70,7 @@ jobs:
           name: "Linux 64-bit x86"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: Madis0/packwiz
-          run-id: 12104671023
+          run-id: 12858009936
       - name: Export to packwiz
         run: |
           chmod +x ./packwiz
