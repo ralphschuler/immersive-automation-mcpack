@@ -375,10 +375,6 @@ hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
 metafile = true
 
 [[files]]
-file = "mods/create-pantographs-and-wires.pw.toml.disabled"
-hash = "797c86c22473a02a5c5eca0ca1a005df3787d9569f4f4e2322ec6e1e6bc09870"
-
-[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "9fb24bae0eafc30b8272c39446f14052c94cf024706dccba661a9ddb1f0a4eae"
 metafile = true
@@ -714,8 +710,9 @@ hash = "80a47171dcffc0762b7fe17d5b9cd2803bea8b75bb32bbb6b0bd263bf983fb3a"
 metafile = true
 
 [[files]]
-file = "mods/flowing-fluids.pw.toml.disabled"
+file = "mods/flowing-fluids.pw.toml"
 hash = "fa9a86cedefb4d7eca2c15a4c8f8711834926f7cd182674c274aa8bd4a0fded5"
+metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
