@@ -375,9 +375,8 @@ hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
 metafile = true
 
 [[files]]
-file = "mods/create-pantographs-and-wires.pw.toml"
+file = "mods/create-pantographs-and-wires.pw.toml.disabled"
 hash = "797c86c22473a02a5c5eca0ca1a005df3787d9569f4f4e2322ec6e1e6bc09870"
-metafile = true
 
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
