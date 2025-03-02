@@ -680,11 +680,6 @@ hash = "d987a241a56c9e3fde315ca942c8240911b51c98d7d5bd1f089c25ddb8b6cca1"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu.pw.toml"
-hash = "e383eb644716cdb4e1bb8324b2a0aeb194c8e415c84f5703f2bef59fe106fb0b"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight-fabric.pw.toml"
 hash = "14e141719b2166b70fc329f620bea34892696f8677127f7181ba2533519e8c56"
 metafile = true
@@ -982,11 +977,6 @@ metafile = true
 [[files]]
 file = "mods/measurements.pw.toml"
 hash = "e111c982dd54b9b95d754325edb26d489d1d6cd8db424bfb247d6b33e7b98f27"
-metafile = true
-
-[[files]]
-file = "mods/melody.pw.toml"
-hash = "a387dcfe8d66bcde451407d5608af67e95720dea13d94a20e13ad5340f6bec6e"
 metafile = true
 
 [[files]]
