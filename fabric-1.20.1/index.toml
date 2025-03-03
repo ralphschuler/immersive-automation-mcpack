@@ -410,9 +410,8 @@ hash = "916c17614ec51da73e173b7249118b473e479c370a48378bc7f91eb5e5abfa9d"
 metafile = true
 
 [[files]]
-file = "mods/create-track-map.pw.toml"
+file = "mods/create-track-map.pw.toml.disabled"
 hash = "96b0da15913458b2d1aa9ba1f95bb55ea34867625e0018f4c765562dab055313"
-metafile = true
 
 [[files]]
 file = "mods/create_oxidized.pw.toml"
