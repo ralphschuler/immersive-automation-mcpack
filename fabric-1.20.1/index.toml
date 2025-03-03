@@ -410,6 +410,11 @@ hash = "916c17614ec51da73e173b7249118b473e479c370a48378bc7f91eb5e5abfa9d"
 metafile = true
 
 [[files]]
+file = "mods/create-track-map.pw.toml"
+hash = "96b0da15913458b2d1aa9ba1f95bb55ea34867625e0018f4c765562dab055313"
+metafile = true
+
+[[files]]
 file = "mods/create_oxidized.pw.toml"
 hash = "efa23ff6062ef28df1983e6af3fe059ddcc514cb6f3dad4392150da548c56720"
 metafile = true
@@ -667,11 +672,6 @@ metafile = true
 [[files]]
 file = "mods/fadeless.pw.toml"
 hash = "d987a241a56c9e3fde315ca942c8240911b51c98d7d5bd1f089c25ddb8b6cca1"
-metafile = true
-
-[[files]]
-file = "mods/farmers-delight-fabric.pw.toml"
-hash = "14e141719b2166b70fc329f620bea34892696f8677127f7181ba2533519e8c56"
 metafile = true
 
 [[files]]
@@ -1127,6 +1127,11 @@ metafile = true
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "d9c5210eba2029803417c8bb52345bac716834e13ba0dc989b11b4fe98007a98"
+metafile = true
+
+[[files]]
+file = "mods/openpac-bluemap-remapped.pw.toml"
+hash = "cd00059a964f8b2492a8f44acfd73410f254a32d6e710ced9115c640e63eb28d"
 metafile = true
 
 [[files]]
