@@ -1,13 +1,13 @@
 name = "Create: Structures Arise"
-filename = "create_structures_arise-145.18.17-fabric-1.20.1.jar"
+filename = "create_structures_arise-149.22.21-fabric-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9enMEvoc/versions/RYJJPC0m/create_structures_arise-145.18.17-fabric-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/9enMEvoc/versions/KEzIXClx/create_structures_arise-149.22.21-fabric-1.20.1.jar"
 hash-format = "sha512"
-hash = "3205afe3cd0850ce7f6f99fd8c0e6839ff79104afde720022d47c5fbae19fd1826a9714cbb39bb3f85d2aae240bb8fb48bf82cc65c47f2de0d9389508f2477c1"
+hash = "1da0608140f752a1eb5c03212f65af28beacf4eb02a5aeed45b7dcf69521c8f7016211c2851996acfc36a506344fd0fb0d26745dec8e74a053e720abeb5a59ee"
 
 [update]
 [update.modrinth]
 mod-id = "9enMEvoc"
-version = "RYJJPC0m"
+version = "KEzIXClx"

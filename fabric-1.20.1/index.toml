@@ -6,7 +6,7 @@ hash = "aa9b796514553c8e0b8aeeef8119a1cbcb67926875de8ff7dc002e9a6443dd9f"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "0743031d2dbaebdf7e3c18cd1ef493a40c8b48ce534342f48e4764c49ad9ff4f"
+hash = "ff4b1002e2ca246ab15c2d9889832e873e49cb05fe9916f3282f92bd53294ca8"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "595fd01031be460097435c8fed3777e7736b0daf0321f9237dad75b4cd507a84"
+hash = "47bfb455847e99dd0555d3ced5ce3c48b927a93f06103bd8e6299454a03a490e"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "fb3d6463ab07baa3cc0e0d6cfacbcaaeec3c32ef495b9c7762042897c4e35fc3"
+hash = "f460d01d0351226ce596672936cc09364028046e87fc357bd0218c6df3e89d83"
 metafile = true
 
 [[files]]
@@ -301,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-better-villagers.pw.toml"
-hash = "386053e559e8d1c3439a8fe5f988740ed82c4f0bb29565d18fcc8b8c8872e3eb"
+hash = "f04062442711c113a01264a91aac67c111444aa6646791e95eb315ad344f391b"
 metafile = true
 
 [[files]]
@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
-hash = "25d1b95f580a48caf2f6fd08012993613b1982cfd8f36d66874eeb64c642605b"
+hash = "f35e0e92b3b2daf1a698f5e1c6105a99f45bc4a96104588ccee6b154bb015034"
 metafile = true
 
 [[files]]
@@ -615,7 +615,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-bounties.pw.toml"
-hash = "1fe1e9a3251c1f9d33cad8af3eb5d6ea6400099dcc499209b579c586331c14ed"
+hash = "0bb92077a9924c6afa6049c83ff464b19ce4772eb785efbb8a650043eb8c3db0"
 metafile = true
 
 [[files]]
@@ -725,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "7fcd61647cb58f7d690016a19c9e89e7280dcd1a31f57c66426ac95ec0e66653"
+hash = "b14dee29e8484c1f489581af8c87e280927803fda83a325b1a45efe697d00a97"
 metafile = true
 
 [[files]]
@@ -755,7 +755,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "362e0fe2f1141bb2fa76d1a135daddf8ad62a122079a10d08553e28b1b05df9a"
+hash = "733f3075781ea22bf1a1a107b03b2bfb49f77d69b6f9be666827361c453eda25"
 metafile = true
 
 [[files]]
@@ -805,7 +805,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "9189950e68af278daaef951d8ef23b06f567f27d8c9f50df898ac0117d35c93c"
+hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
 metafile = true
 
 [[files]]
@@ -1005,7 +1005,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "7d3f6050aa325263ac720038e99aa72ba6bb464601dfac5a956d48659a2ebba2"
+hash = "af92cc899c8949a238f94889f0b075003af7402a01d7c9534ec7f829b25ac812"
 metafile = true
 
 [[files]]
@@ -1160,7 +1160,7 @@ metafile = true
 
 [[files]]
 file = "mods/philips-ruins.pw.toml"
-hash = "5890bffc984f1f87176f57220738a53190a3bec1cefa4c1337ab8a933fb72f1e"
+hash = "97eb6726bc960a98d98b7524193a0a868fff94215e5c634e05178d975f7d0893"
 metafile = true
 
 [[files]]
@@ -1170,7 +1170,7 @@ metafile = true
 
 [[files]]
 file = "mods/plasmo-voice.pw.toml"
-hash = "528cb7471ec78c57d554549b39cf13d41269a910e911404d7bc9a29042dd3554"
+hash = "bd5db8dd260479ff5a9e938c7d3fa5daedef925893afc76798d13f91620e0473"
 metafile = true
 
 [[files]]
@@ -1200,7 +1200,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "974fc9a82d211049b57b4d9dd0b7bb2e203d5a9b88d20a3f8ce2c3a16ee4426b"
+hash = "3e2a1448933199b681df01a7dbf50fb13bbd95e7d79d3e7f49dcc13f739ceaab"
 metafile = true
 
 [[files]]
@@ -1295,12 +1295,12 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
-hash = "7491f589de79f246636c8287009c4423547f326db359bb90ce8c4c1b000fb986"
+hash = "9ca0cf2991fe0ab49d1d88737441e008a3367b2b4c5cae05d63f225084eca37b"
 metafile = true
 
 [[files]]
 file = "mods/shutters.pw.toml"
-hash = "a1fe1115589d8b7a969b31611bd2df7e8f89332c3276abf0b9f2aca4c21150c5"
+hash = "fcfaa95ee069c0d219e24ba5bb6ea0c0dfe6bc759aae9415b1509cb4d2625987"
 metafile = true
 
 [[files]]
@@ -1330,7 +1330,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "11ad5fd79e9295c8855e3be8b3bf9bf4538598863822e4281a6c3a73b10b5159"
+hash = "ecf8e1df2361e5f1d090f83eee16c449ff1021dfb2da46474a72726406d5d535"
 metafile = true
 
 [[files]]
@@ -1355,7 +1355,7 @@ metafile = true
 
 [[files]]
 file = "mods/spawn-animations-compats.pw.toml"
-hash = "e5999df2de8e75fa687ea6b2e5d9dd624cdc9b1b1d1c612830d3d01a41156407"
+hash = "46cdd26278461da4a0b7f083d28df5ee4df7e6209aa366545ed37d4d79e542ce"
 metafile = true
 
 [[files]]
@@ -1420,7 +1420,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "fadb1aaba6c522a2cfccbc04366ebbf49bcfc336ea1f96f3ff59781ce8b94d2d"
+hash = "b3ae602303fd717bff2344bfb89aa427e2b4a1ab5fffdcc25183b22102c492df"
 metafile = true
 
 [[files]]
@@ -1615,5 +1615,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "e6e8807859717ef8894593dc1368719d3cfcab0ee2acd9cb2e0ee647a2b27c0e"
+hash = "c5ecb30262c296e6733e4bd404a895b49083511dc851d9d288e3dec0d3dc5c26"
 metafile = true

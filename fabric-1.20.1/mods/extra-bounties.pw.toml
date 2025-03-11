@@ -3,11 +3,11 @@ filename = "ExtraBounties-universal.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5XH5uKvv/versions/uDfvedx4/ExtraBounties-universal.jar"
+url = "https://cdn.modrinth.com/data/5XH5uKvv/versions/2vcn3c7F/ExtraBounties-universal.jar"
 hash-format = "sha512"
-hash = "11c02fe14f11d632c5a305e7b94dc8e76d8b5c62f7c5124cc60e73018562e7991e03d2a3add50ee843b83848db0c721b0b35580847ab68cd8ad0113c05be6863"
+hash = "c247c7e002c3f28abd029aa651fe556941e099b5504d584515c56eefd0661c57fa0192823ef1f0643ae8d3d77b0d63afc6b03faf7cf4b12bac0331564fb53b40"
 
 [update]
 [update.modrinth]
 mod-id = "5XH5uKvv"
-version = "uDfvedx4"
+version = "2vcn3c7F"
