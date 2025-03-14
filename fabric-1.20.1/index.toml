@@ -305,9 +305,8 @@ hash = "f04062442711c113a01264a91aac67c111444aa6646791e95eb315ad344f391b"
 metafile = true
 
 [[files]]
-file = "mods/create-bigger-storage.pw.toml"
+file = "mods/create-bigger-storage.pw.toml.disabled"
 hash = "4645128a1fee92dcffe7c2d42bddee5cfe99c7529b7b83c248a11e11089f6bc8"
-metafile = true
 
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
