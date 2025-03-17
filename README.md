@@ -51,3 +51,4 @@ Whether you're an automation expert or a curious beginner, **"Immersive Automati
 
 ## Requirements:
 Java 21 (required to run the modpack)
+> We reccomend [Temurin for OSX](https://adoptium.net/de/temurin/releases/?version=21)
