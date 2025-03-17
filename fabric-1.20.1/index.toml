@@ -1002,9 +1002,8 @@ hash = "435267c3230ba1439f50fa32c3ed3993a4123f870681451aa95acdde5d52622e"
 metafile = true
 
 [[files]]
-file = "mods/modernfix.pw.toml"
+file = "mods/modernfix.pw.toml.disabled"
 hash = "fac1ce75868b8cea1e0f09388444adb81ee8bedb3dc86d3206e49182905acff7"
-metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
