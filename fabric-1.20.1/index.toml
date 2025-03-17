@@ -5,6 +5,10 @@ file = "CHANGELOG.md"
 hash = "aa9b796514553c8e0b8aeeef8119a1cbcb67926875de8ff7dc002e9a6443dd9f"
 
 [[files]]
+file = "docker-compose.yml"
+hash = "60eb73fac800357faacb793c005df8aaab3f1866eb2c71e7c4c2c2787360def2"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "ff4b1002e2ca246ab15c2d9889832e873e49cb05fe9916f3282f92bd53294ca8"
 metafile = true
@@ -491,6 +495,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "f53127f5487705ab6eea8cd69a663f6d1cabc3d21aacfb0026d177c9842da4e0"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "276e1986d17845723e3ff29ba3fab5ca02b3647b1ae85de612408d3aa621e997"
 metafile = true
 
 [[files]]
