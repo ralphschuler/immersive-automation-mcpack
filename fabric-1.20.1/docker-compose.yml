@@ -1,0 +1,26 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "8100:8100"
+      - "9090:9090"
+    restart: always
+    environment:
+      EULA: "TRUE"
+      MEMORY: 16G
+      ENABLE_ROLLING_LOGS: true
+      TYPE: "FABRIC"
+      VERSION: "1.20.1"
+      PACKWIZ_URL: "https://raw.githubusercontent.com/ralphschuler/immersive-automation-mcpack/refs/heads/main/fabric-1.20.1/pack.toml"
+      LEVEL: world
+      LEVEL_TYPE: large_biomes
+      DIFFICULTY: normal
+      OPS: |
+        AgentRoastBeef
+      MODE: survival
+      FORCE_GAMEMODE: true
+    volumes:
+      - "./data:/data"

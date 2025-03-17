@@ -9,3 +9,4 @@
 
 # Eclude precommit hooks config
 .pre-commit-config.yaml
+.DS_Store
