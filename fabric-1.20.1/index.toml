@@ -643,13 +643,17 @@ hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
 metafile = true
 
 [[files]]
-file = "mods/fabric-seasons-delight-compat.pw.toml"
+file = "mods/fabric-seasons-delight-compat.pw.toml.disabled"
 hash = "ca6466a711561f431038af2698dfaa4e683703f74908655a5742adbc0f5433ef"
-metafile = true
 
 [[files]]
 file = "mods/fabric-seasons-extras.pw.toml"
 hash = "e374551967a4fc99edb9fc60ba96845aa0252b4a12236e7591d921c1664f6001"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons-natures-spirit-compat.pw.toml"
+hash = "8a628bb42255d9efa07763f70990af4452c55f48c9393e0a9953d157faff09b1"
 metafile = true
 
 [[files]]
