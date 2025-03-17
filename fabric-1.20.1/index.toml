@@ -768,9 +768,8 @@ hash = "3460277f521c66c6f32ad2b64369139c01d8fbc1237266d7416d43de758c3bb4"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
+file = "mods/immediatelyfast.pw.toml.disabled"
 hash = "68985a3f3d2a6f829783c1bdbd27f195556992fc2c0a9738656acccf38d8c97a"
-metafile = true
 
 [[files]]
 file = "mods/immersive-structures.pw.toml"
