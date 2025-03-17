@@ -1,54 +1,68 @@
-# ✨ **Immersive Automation** – The Ultimate Tech Modpack! ⚙️
+(Due to technical issues, the search service is temporarily unavailable.)
 
-### **🚀 Build. Automate. Explore. Innovate.**
+# ✨ **Immersive Automation** – The Ultimate Tech Modpack ⚙️
 
-Step into a world where **engineering meets adventure**!
-"Immersive Automation" is a modpack designed for **tech enthusiasts**, **automation lovers**, and **explorers** alike. With the **Create mod** and a collection of advanced technology mods, you can build intricate machines, optimize production lines, and master the art of automation.
+Welcome to **Immersive Automation**, where **engineering meets adventure**! This modpack is designed for **tech enthusiasts**, **automation lovers**, and **explorers** who want to push Minecraft to its limits. With a blend of **advanced technology**, **dynamic world generation**, and **immersive survival mechanics**, this modpack offers endless possibilities for creativity, innovation, and exploration.
 
-But that's just the beginning! Travel across **stunning new biomes**, **navigate through seasons**, and **venture beyond Earth into space**. Whether you're designing an industrial megabase, **programming computers to automate tasks**, or **farming fresh ingredients for immersive survival gameplay**, this modpack brings Minecraft to a whole new level.
+---
+
+## 🌟 **Key Features**
 
 ### 🌍 **A Living, Breathing World**
-✅ **Diverse Landscapes** – Explore brand-new biomes with unique resources.
-✅ **Seasonal Changes** – Watch the world shift as you progress through spring, summer, autumn, and winter.
-✅ **Realistic Continents** – A fresh world generation system creates massive landmasses and vast oceans.
+- **Diverse Landscapes**: Explore stunning new biomes filled with unique resources.
+- **Seasonal Changes**: Experience the world transform through **spring, summer, autumn, and winter**.
+- **Realistic Continents**: Discover vast landmasses and oceans with a fresh world generation system.
 
 ### ⚙️ **Next-Level Automation & Technology**
-✅ **Mechanical Marvels** – Use gears, pulleys, and conveyor belts to create animated contraptions.
-✅ **Programmable Systems** – Automate your world with in-game computers and smart machines.
-✅ **Space Exploration** – Build rockets, space stations, and establish planetary bases.
+- **Mechanical Marvels**: Build intricate machines using gears, pulleys, and conveyor belts.
+- **Programmable Systems**: Automate your world with in-game computers and smart machines.
+- **Space Exploration**: Construct rockets, space stations, and establish bases on other planets.
 
-### 🍽 **Beyond Machines – A Deeper Survival Experience**
-✅ **Advanced Farming & Cooking** – Grow, harvest, and prepare delicious meals.
-✅ **Custom Building Blocks** – Expand your creativity with new decorative elements.
-✅ **Interactive Factories** – Feel the satisfaction of seeing every part of your base in motion.
-
----
-
-## 🛠 **Main Mods Included**
-
-| 🔧 **Mod**         | 🌟 **What It Adds** |
-|--------------------|--------------------|
-| **🛰 Ad Astra**     | Space travel, rockets, and planetary exploration. |
-| **🌿 Biomes O' Plenty** | Expansive new biomes for the Overworld, Nether, and End. |
-| **💻 CC: Tweaked** | Programmable computers for automation and control. |
-| **🏝 Continents**  | Realistic world generation with vast landmasses. |
-| **⚙️ Create**      | Mechanical automation with gears, pulleys, and moving contraptions. |
-| **🍂 Fabric Seasons** | A dynamic seasonal system that changes biomes over time. |
-| **🥗 Farmer’s Delight** | Enhanced farming, cooking, and food mechanics. |
+### 🍽 **Enhanced Survival & Creativity**
+- **Advanced Farming & Cooking**: Grow, harvest, and prepare delicious meals with immersive mechanics.
+- **Custom Building Blocks**: Expand your creativity with a wide variety of decorative elements.
+- **Interactive Factories**: Watch your base come to life with moving parts and animated contraptions.
 
 ---
 
-## 🌐 **Join the Adventure!**
+## 🛠 **Featured Mods**
 
-🎮 **Server IP:** `138.201.140.228`
-🗺 **Live Map:** [Click here](http://138.201.140.228:8100/)
-
-Whether you're an automation expert or a curious beginner, **"Immersive Automation"** offers a **dynamic, rewarding** experience. Build factories, travel through space, program machines, and **craft the ultimate world**—one contraption at a time.
-
-🚀⚙️ **Ready to revolutionize Minecraft?** Join us now! 🔥
+| **Mod**               | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **🛰 Ad Astra**         | Explore space, build rockets, and establish planetary bases.                   |
+| **🌿 Biomes O' Plenty** | Adds expansive new biomes to the Overworld, Nether, and End.                   |
+| **💻 CC: Tweaked**      | Programmable computers for automation and control.                              |
+| **🏝 Continents**       | Realistic world generation with massive landmasses and vast oceans.            |
+| **⚙️ Create**           | Mechanical automation with gears, pulleys, and animated contraptions.          |
+| **🍂 Fabric Seasons**   | Dynamic seasonal system that changes biomes over time.                         |
+| **🥗 Farmer’s Delight** | Enhanced farming, cooking, and food mechanics for immersive survival gameplay. |
 
 ---
 
-## Requirements:
-Java 21 (required to run the modpack)
-> We reccomend [Temurin for OSX](https://adoptium.net/de/temurin/releases/?version=21)
+## 🌐 **Join the Adventure**
+
+🎮 **Server IP**: `138.201.140.228`
+🗺 **Live Map**: [Click here](http://138.201.140.228:8100/)
+
+Whether you're an **automation expert** or a **curious beginner**, **Immersive Automation** offers a **dynamic and rewarding experience**. Build factories, travel through space, program machines, and craft the ultimate world—one contraption at a time.
+
+---
+
+## 🚀 **Getting Started**
+
+### **Requirements**
+- **Java 21**: Required to run the modpack.
+  > We recommend [Temurin for OSX](https://adoptium.net/de/temurin/releases/?version=21).
+
+### **Installation**
+1. Download and install a modpack launcher (e.g., **CurseForge** or **MultiMC**).
+2. Search for **"Immersive Automation"** and install the modpack.
+3. Launch the game and join the server using the IP above.
+
+---
+
+## 🔥 **Ready to Revolutionize Minecraft?**
+
+Dive into **Immersive Automation** today and experience a world where **creativity**, **technology**, and **adventure** collide. Build, automate, explore, and innovate like never before!
+
+⚙️ **Let’s build the future, one block at a time.** 🚀
