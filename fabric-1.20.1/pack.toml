@@ -1,12 +1,12 @@
 name = "Immersive Automation"
 author = "Ralph Schuler"
-version = "0.1.9"
+version = "0.1.10"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "237729f2d43a500009ad9f0d47524a5b1a30c2aa2e848827bd670b40d6d28049"
+hash = "cd44bc1fbe2c74f1b5ca2c4c66fb41f83d3b4a7885dcfcf94dd2afeb52c91b79"
 
 [versions]
 fabric = "0.16.10"
