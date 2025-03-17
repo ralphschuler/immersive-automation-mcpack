@@ -4,9 +4,8 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - "25565:25565"
-      - "8100:8100"
-      - "9090:9090"
+      - "25565:25565" # Minecraft & Plasmo Voice
+      - "8100:8100" # BlueMap
     restart: always
     environment:
       EULA: "TRUE"

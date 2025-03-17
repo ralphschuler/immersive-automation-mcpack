@@ -6,7 +6,7 @@ hash = "aa9b796514553c8e0b8aeeef8119a1cbcb67926875de8ff7dc002e9a6443dd9f"
 
 [[files]]
 file = "docker-compose.yml"
-hash = "60eb73fac800357faacb793c005df8aaab3f1866eb2c71e7c4c2c2787360def2"
+hash = "de38adec73b979225e6edb1a6b5f29a8204a4a4c0285b6271fbf73f284372cfd"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1214,6 +1214,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "3e2a1448933199b681df01a7dbf50fb13bbd95e7d79d3e7f49dcc13f739ceaab"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "a07ab46c49c0135a7b1108eb011f6a88fed03c9261da247180c509724b0990ca"
 metafile = true
 
 [[files]]
