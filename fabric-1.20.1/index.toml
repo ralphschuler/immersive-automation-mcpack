@@ -165,7 +165,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "417bf9e48fd92e497beff9328cc3a7da3fd163bbcd097bd975ecfdc34f5f4bdb"
+hash = "82d91cd4f31c73089e601baa4af7ae7c501e9190c25af02b490277a0b8c1282d"
 metafile = true
 
 [[files]]
@@ -589,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-celestials.pw.toml"
-hash = "24b2d2a7e2426b08db52facebe9b03776f944758027de81f45de1873285b9489"
+hash = "08f964d01604032a0bfe23f32ad9ff4dec93f3e4e11df631850ea863ccad8fe8"
 metafile = true
 
 [[files]]
@@ -629,7 +629,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "c7763ceed9929d3364030c01a4602628ebf46a028d55e7dd06f5aeb6280d36a3"
+hash = "c10109cdaa93bb556aa99268af1dce6ca784cd21f4b97800aaad908e761e7b15"
 metafile = true
 
 [[files]]
@@ -729,12 +729,12 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "b14dee29e8484c1f489581af8c87e280927803fda83a325b1a45efe697d00a97"
+hash = "db1c59e9b1ed0585101398c45723e2b0de6ab348d4ac2d4fa00632826d0d7e94"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0e99c9b4a524d9cb74553f7b3ed331081031fef9d3c0c437f3734fbd9a350a2d"
+hash = "7d4e9f5ab4f22f929c458fa88c003d6679eadafe287d180df17f9853c18b83d1"
 metafile = true
 
 [[files]]
@@ -759,7 +759,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "733f3075781ea22bf1a1a107b03b2bfb49f77d69b6f9be666827361c453eda25"
+hash = "68985a3f3d2a6f829783c1bdbd27f195556992fc2c0a9738656acccf38d8c97a"
 metafile = true
 
 [[files]]
@@ -839,7 +839,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "62dcbd50ca504de26da23305b6e1578298b6cfd14fb98118fcd471cf128d4337"
+hash = "871823f9cddce5616209687d3c2434cefcafd43c30b61c9024da87a3b9b9e9e9"
 metafile = true
 
 [[files]]
@@ -869,7 +869,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "ad1c4be47ec1445bd4061ca8f5e9dbe291bfd4b8dc4207ecfb65e8bd83bdd29f"
+hash = "62b5f6133f799c95d48314eef3e353b8689477f075e9f604a2566de03d593563"
 metafile = true
 
 [[files]]
@@ -1009,7 +1009,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "af92cc899c8949a238f94889f0b075003af7402a01d7c9534ec7f829b25ac812"
+hash = "20e2c39cfb5edd0ee3eb1360817783ffa6e07efbfeabdb950c1db86de8840db0"
 metafile = true
 
 [[files]]
@@ -1284,7 +1284,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsls.pw.toml"
-hash = "3016c5d9d4ed44ba92d1c90f9a3099d1e4b3130838d1c09a7b7db5715a0c1409"
+hash = "d38432c1742c9180ce57283349f47f2cfccb2cabde9d5acc77929f6ca114658a"
 metafile = true
 
 [[files]]
@@ -1299,7 +1299,7 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
-hash = "9ca0cf2991fe0ab49d1d88737441e008a3367b2b4c5cae05d63f225084eca37b"
+hash = "ba3f07c2b2a6208d73555c93f26f96e576c4b6236a2bc8a71d6f73b7e6cce7ff"
 metafile = true
 
 [[files]]
@@ -1329,7 +1329,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "6b7e9ed619297a29eb6db95f860734144876aa68922de63a05409b65ad8bd163"
+hash = "8ad07191dfdea31249b4416a390c1cdf1d4ff1938cf9f8a617f98f7a08c5356c"
 metafile = true
 
 [[files]]
@@ -1469,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "mods/unionlib.pw.toml"
-hash = "d89e8a074f463af393b0d3247bdfdb454a6b0cbf9ba1e5571325a7b4c2e925b6"
+hash = "1517757c9d3d133d524d6595e80a0c6e2dd1f36e060a5bef12a06c0e7f8bfee0"
 metafile = true
 
 [[files]]
@@ -1514,7 +1514,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "7f8373ddb35a3d5ed84797a5f55917b67f839c9ed06666240c87687b19efaadc"
+hash = "dba82d56d2514555ac3e326359a913c804b1a1137a6d696d80f73aadaf0ff62f"
 metafile = true
 
 [[files]]
@@ -1594,7 +1594,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-cave-biomes.pw.toml"
-hash = "39cb1f5febc1a95b8e81b4aa2e7c3298c7a583b01f96de956b822e281b3bdff9"
+hash = "03a44e4a940e981bc6e8153932b3a36f119783885942818bbfeeaf9000f97db3"
 metafile = true
 
 [[files]]
@@ -1619,5 +1619,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "c5ecb30262c296e6733e4bd404a895b49083511dc851d9d288e3dec0d3dc5c26"
+hash = "e39ebed36242a2a7842ef5b189e28df2e3350ad143643407c2435c21234aa42e"
 metafile = true
