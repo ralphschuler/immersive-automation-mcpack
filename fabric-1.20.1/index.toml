@@ -199,9 +199,8 @@ hash = "bff794b3d43e8db28e050e9d4a775a69c575f43fc79084608da69fbb4bb0fe92"
 metafile = true
 
 [[files]]
-file = "mods/c2me-fabric.pw.toml"
+file = "mods/c2me-fabric.pw.toml.disabled"
 hash = "64a244469b7ce7be7e6ceabedd69d17e573a0b92d6e29c661fc6c490afa965d8"
-metafile = true
 
 [[files]]
 file = "mods/capes.pw.toml"
