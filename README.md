@@ -46,3 +46,8 @@ But that's just the beginning! Travel across **stunning new biomes**, **navigate
 Whether you're an automation expert or a curious beginner, **"Immersive Automation"** offers a **dynamic, rewarding** experience. Build factories, travel through space, program machines, and **craft the ultimate world**—one contraption at a time.
 
 🚀⚙️ **Ready to revolutionize Minecraft?** Join us now! 🔥
+
+---
+
+## Requirements:
+Java 21 (required to run the modpack)
