@@ -448,6 +448,11 @@ hash = "da30a288d8ed0b4d3564dc3ddc6a988cfa7b3d7362edc9b50a2bd114ac8007d0"
 metafile = true
 
 [[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "964fd6ca268359a08864e8096c29539680326d8441281b7c8b9b480fa96df24a"
+metafile = true
+
+[[files]]
 file = "mods/dawn.pw.toml"
 hash = "f4fde077bf201fbc588de6ec081d10171101f3176ec9d85fa35b86aae42c241c"
 metafile = true
