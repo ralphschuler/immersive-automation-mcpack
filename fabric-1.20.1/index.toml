@@ -718,9 +718,8 @@ hash = "80a47171dcffc0762b7fe17d5b9cd2803bea8b75bb32bbb6b0bd263bf983fb3a"
 metafile = true
 
 [[files]]
-file = "mods/flowing-fluids.pw.toml"
+file = "mods/flowing-fluids.pw.toml.disabled"
 hash = "fa9a86cedefb4d7eca2c15a4c8f8711834926f7cd182674c274aa8bd4a0fded5"
-metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
