@@ -1,0 +1,13 @@
+name = "Spice of Life: Classic Edition [1.20.1]"
+filename = "spiceoflife_classic-fabric-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Utos7Mlk/versions/eeQncleY/spiceoflife_classic-fabric-2.0.jar"
+hash-format = "sha512"
+hash = "f732ca30eb93983f8cb410a781acb1ac5c7c7ba1bf5892ca5703d40193c0c4d1f6001cb9a4d3465f60b8e3ad51f6017d38f256b15a4ac32252a0c15b6e7cb622"
+
+[update]
+[update.modrinth]
+mod-id = "Utos7Mlk"
+version = "eeQncleY"

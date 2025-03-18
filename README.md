@@ -1,5 +1,3 @@
-(Due to technical issues, the search service is temporarily unavailable.)
-
 # ✨ **Immersive Automation** – The Ultimate Tech Modpack ⚙️
 
 Welcome to **Immersive Automation**, where **engineering meets adventure**! This modpack is designed for **tech enthusiasts**, **automation lovers**, and **explorers** who want to push Minecraft to its limits. With a blend of **advanced technology**, **dynamic world generation**, and **immersive survival mechanics**, this modpack offers endless possibilities for creativity, innovation, and exploration.
@@ -53,11 +51,6 @@ Whether you're an **automation expert** or a **curious beginner**, **Immersive A
 ### **Requirements**
 - **Java 21**: Required to run the modpack.
   > We recommend [Temurin for OSX](https://adoptium.net/de/temurin/releases/?version=21).
-
-### **Installation**
-1. Download and install a modpack launcher (e.g., **CurseForge** or **MultiMC**).
-2. Search for **"Immersive Automation"** and install the modpack.
-3. Launch the game and join the server using the IP above.
 
 ---
 
