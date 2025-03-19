@@ -739,11 +739,6 @@ hash = "fa9a86cedefb4d7eca2c15a4c8f8711834926f7cd182674c274aa8bd4a0fded5"
 metafile = true
 
 [[files]]
-file = "mods/foodvariations.pw.toml"
-hash = "6fdc765d4aa8ec0ca7e48f78e0576e5f8876154f97914786b078838d7f269634"
-metafile = true
-
-[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "d5db994a9bdf835c0bda791ef6a0eed315f77a1dc5bab1ce04003a9ab5a4b01f"
 metafile = true
@@ -1425,6 +1420,11 @@ metafile = true
 [[files]]
 file = "mods/spawn-mod.pw.toml"
 hash = "84278fdbdb9345a1fe943b4b62437c2f3b17b489c4edfa078b4d0f71d16e5831"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-fabric.pw.toml"
+hash = "bfbcbb106a198954e1df22f12b2b1c1310095901d0a0137fd83a22af533bc093"
 metafile = true
 
 [[files]]
