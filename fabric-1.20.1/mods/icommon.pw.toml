@@ -1,0 +1,13 @@
+name = "iCommon API"
+filename = "iCommon-Fabric-bundle.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/SVKv1SZo/versions/caR6lov0/iCommon-Fabric-bundle.jar"
+hash-format = "sha512"
+hash = "233ef7cf5d3a85b55f82506b5ed868ca4c5d86ecb9e14867c9ea6e5b22ab5c293d01b949db6704a1b1a878b407e689582b17669eb45e4be9ce1d6e3079c397ed"
+
+[update]
+[update.modrinth]
+mod-id = "SVKv1SZo"
+version = "caR6lov0"
