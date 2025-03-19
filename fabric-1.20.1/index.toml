@@ -210,11 +210,6 @@ hash = "ec2c437fe50a3f8ea6077215974ba9f769cb94eb29432156cbbe43137a74013f"
 metafile = true
 
 [[files]]
-file = "mods/cardboard.pw.toml"
-hash = "afa5182cc7b42de14d76a7a611225095710ac10fe74613df700d851deddbb291"
-metafile = true
-
-[[files]]
 file = "mods/caves__canyons.pw.toml"
 hash = "ce8e8538d1ed556813372c8a876eda0e8fc5a18eefb775ae14f776d615436819"
 metafile = true
@@ -776,11 +771,6 @@ metafile = true
 [[files]]
 file = "mods/heracles.pw.toml"
 hash = "3460277f521c66c6f32ad2b64369139c01d8fbc1237266d7416d43de758c3bb4"
-metafile = true
-
-[[files]]
-file = "mods/icommon.pw.toml"
-hash = "716e7fb17367636fd7ee3b9aab03f485416f0d61e9d5c4aecda0b6357464d1f7"
 metafile = true
 
 [[files]]
