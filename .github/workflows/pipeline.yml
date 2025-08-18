@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Check Out Git Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: List Modpacks
         id: list-modpacks
@@ -94,7 +94,7 @@ jobs:
         if: ${{ steps.release-please.outputs.pr != '' }}
 
       - name: Check Out Git Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
